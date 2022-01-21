@@ -1,0 +1,68 @@
+# Secret used by the server to create and verify JSON Web Tokens
+JWT_SECRET = 23842340239480238420348394
+
+# Secret used by the Server to create and verify session cookies
+SESSION_SECRET = asdklfjqo31
+
+# Protocol either http:// or https://
+URL = https://
+REACT_APP_URL = ${URL}
+
+# Database details
+#DB_Name=passup
+#DB_Username=adminpassups   
+#DB_Password=SAg8pNY465
+
+#DB_Name=passupnew
+#DB_Username=passupnew
+#DB_Password=Kux53cXJYCDYj
+
+
+#DB_Name=passuplive
+#DB_Username=passuplive
+#DB_Password=passuplive
+
+
+
+DB_Name=passup2
+DB_Username=passup2
+DB_Password=passup2
+
+
+
+# Port details
+Port_Number=4000
+REACT_APP_Port=${Port_Number}
+
+# Admin User information
+Admin_User=admin
+Admin_Email=admin@gmail.com
+Admin_Password=passup
+REACT_APP_User=${Admin_User}
+REACT_APP_Password=${Admin_Password}
+
+# Site informations
+Site_Name=PassUp
+Site_Url=passup.trioangle.com
+SiteEmail_Url=passup.trioangle.com
+REACT_APP_Site_Url=${Site_Url}
+
+
+REACT_APP_Domain_Url = https://passup.trioangle.com/
+
+REACT_APP_WS_URL = wss://passup.trioangle.com:4000/graphql
+
+
+
+NODE_ENV=production
+REACT_APP_ENV= production
+
+# User Login information
+REACT_APP_User_Login =trioanglepassup@gmail.com
+REACT_APP_User_Password =passup
+
+#braintree keys
+Braintree_Environment = Sandbox
+MerchantId = 5vjrvg65b395vm9c
+PublicKey = yf6q8yzjb97c3rkd
+PrivateKey = c2f449d9eaeeda10796d03f6fc04c9cf

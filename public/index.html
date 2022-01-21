@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
+        <meta name="theme-color" content="#000000">
+        <meta property="og:title"         content="$OG_TITLE" />
+        <meta property="og:type"          content="website" />
+        <meta property="og:url"           content="$OG_URL" />
+        <meta property="og:description"   content="$OG_DESCRIPTION" />
+        <meta property="og:image:width"   content="400" />
+        <meta property="og:image:height"  content="300" />
+        <meta property="og:image"         content="$OG_IMAGE" />
+        <meta property="og:image:alt"     content="passup product image" />
+        <link rel="manifest" href="%PUBLIC_URL%/manifest.json"> 
+        <link rel="apple-touch-icon" sizes="76x76" href="%PUBLIC_URL%/apple-icon.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jvectormap/2.0.4/jquery-jvectormap.css" type="text/css" media="screen"/>
+        <link rel="stylesheet" href="//cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css" type="text/css" media="screen"/>
+        <!--     Fonts and icons     -->
+        <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" /> 
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />  
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script src="https://js.stripe.com/v3/"></script>       
+        <style>
+            :root {
+                /* --theme-color:#fe3a56; */
+                --theme-color-rgp:254 58 86;
+                /* --theme-color-hvr:#f56f7e; */
+                --theme-fontfamily: "Hanken Grotesk", "Helvetica Neue", sans-serif !important;
+            }
+            .stage{
+                width: 100vw;
+                height: 100vh;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                z-index: 9999;
+                overflow: hidden;
+            }
+            .dot-bricks {
+                position: relative;
+                top: 8px;
+                left: -9999px;
+                width: 10px;
+                height: 10px;
+                border-radius: 5px;
+                background-color: #000;
+                color: #000;
+                box-shadow: 9991px -16px 0 0 #000, 9991px 0 0 0 #000, 10007px 0 0 0 #000;
+                animation: dotBricks 2s infinite ease;
+                }
+
+                @keyframes dotBricks {
+                0% {
+                    box-shadow: 9991px -16px 0 0 #000, 9991px 0 0 0 #000, 10007px 0 0 0 #000;
+                }
+                8.333% {
+                    box-shadow: 10007px -16px 0 0 #000, 9991px 0 0 0 #000, 10007px 0 0 0 #000;
+                }
+                16.667% {
+                    box-shadow: 10007px -16px 0 0 #000, 9991px -16px 0 0 #000, 10007px 0 0 0 #000;
+                }
+                25% {
+                    box-shadow: 10007px -16px 0 0 #000, 9991px -16px 0 0 #000, 9991px 0 0 0 #000;
+                }
+                33.333% {
+                    box-shadow: 10007px 0 0 0 #000, 9991px -16px 0 0 #000, 9991px 0 0 0 #000;
+                }
+                41.667% {
+                    box-shadow: 10007px 0 0 0 #000, 10007px -16px 0 0 #000, 9991px 0 0 0 #000;
+                }
+                50% {
+                    box-shadow: 10007px 0 0 0 #000, 10007px -16px 0 0 #000, 9991px -16px 0 0 #000;
+                }
+                58.333% {
+                    box-shadow: 9991px 0 0 0 #000, 10007px -16px 0 0 #000, 9991px -16px 0 0 #000;
+                }
+                66.666% {
+                    box-shadow: 9991px 0 0 0 #000, 10007px 0 0 0 #000, 9991px -16px 0 0 #000;
+                }
+                75% {
+                    box-shadow: 9991px 0 0 0 #000, 10007px 0 0 0 #000, 10007px -16px 0 0 #000;
+                }
+                83.333% {
+                    box-shadow: 9991px -16px 0 0 #000, 10007px 0 0 0 #000, 10007px -16px 0 0 #000;
+                }
+                91.667% {
+                    box-shadow: 9991px -16px 0 0 #000, 9991px 0 0 0 #000, 10007px -16px 0 0 #000;
+                }
+                100% {
+                    box-shadow: 9991px -16px 0 0 #000, 9991px 0 0 0 #000, 10007px 0 0 0 #000;
+                }
+                }
+        </style>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+          <script async src="https://www.googletagmanager.com/gtag/js?id=$An_Data"></script>
+            <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+
+                gtag('config', $An_Data);
+            </script>
+    </head>
+    <body>       
+        <!-- <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>        
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script> -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+         <!-- <script>
+            var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+            (function(){
+              var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+              s1.async=true;
+              s1.src='https://embed.tawk.to/57223b859f07e97d0da57cae/default';
+              s1.charset='UTF-8';
+              s1.setAttribute('crossorigin','*');
+              s0.parentNode.insertBefore(s1,s0);
+            })();
+          </script>  -->
+        <div id="root">
+            <div class="stage"><div class="dot-bricks"></div></div>
+        </div>
+        
+    </body>
+</html>

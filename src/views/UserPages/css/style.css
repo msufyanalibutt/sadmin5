@@ -1,0 +1,953 @@
+@font-face {
+    font-family: 'Hanken Grotesk';
+    font-display: swap;
+    font-style: normal;
+    font-weight: 300;
+    src: url("../../../assets/fonts/HankenGrotesk-Light.woff2") format("woff2"), url("../../../assets/fonts/HankenGrotesk-Light.woff") format("woff"), url("../../../assets/fonts/HankenGrotesk-Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Hanken Grotesk';
+    font-display: swap;
+    font-style: normal;
+    font-weight: 400;
+    src: url("../../../assets/fonts/HankenGrotesk-Regular.woff2") format("woff2"), url("../../../assets/fonts/HankenGrotesk-Regular.woff") format("woff"), url("../../../assets/fonts/HankenGrotesk-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Hanken Grotesk';
+    font-display: swap;
+    font-style: normal;
+    font-weight: 500;
+    src: url("../../../assets/fonts/HankenGrotesk-Medium.woff2") format("woff2"), url("../../../assets/fonts/HankenGrotesk-Medium.woff") format("woff"), url("../../../assets/fonts/HankenGrotesk-Medium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Hanken Grotesk';
+    font-display: swap;
+    font-style: normal;
+    font-weight: 600;
+    src: url("../../../assets/fonts/HankenGrotesk-SemiBold.woff2") format("woff2"), url("../../../assets/fonts/HankenGrotesk-SemiBold.woff") format("woff"), url("../../../assets/fonts/HankenGrotesk-SemiBold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Hanken Grotesk';
+    font-display: swap;
+    font-style: normal;
+    font-weight: 800;
+    src: url("../../../assets/fonts/HankenGrotesk-Bold.woff2") format("woff2"), url("../../../assets/fonts/HankenGrotesk-Bold.woff") format("woff"), url("../../../assets/fonts/HankenGrotesk-Bold.otf") format("opentype");
+}
+
+/* Header */
+
+body[dir="rtl"] .homePopup {
+    left:0px;
+    right: inherit!important;
+}  
+/* login popup */
+
+body[dir="rtl"] .tJBQs .fznnpf{
+    transform: none;
+} 
+body[dir="rtl"] .fznnpf{
+    transform: rotate(180deg) !important;
+}
+body[dir="rtl"] .diFwKh{
+    left: 0px!important;
+ } 
+body[dir="rtl"] .viewPsw button{
+    left: 0px!important;
+    right: inherit!important;
+ }
+@media (min-width: 768px){    
+    body[dir="rtl"] .nn_categorylist.active{
+        padding: 0px 20px 0px 60px;
+    }  
+    body[dir="rtl"] .nn_categorylist.hidden .cls_licount{
+        padding: 0px 25px 0 10px;
+    }
+    body[dir="rtl"] .nn_categorylist.active .nn_btn.hidden,body[dir="rtl"] .nn_categorylist.active .nn_btn.cls_right.active{
+        display: flex;
+    } 
+    body[dir="rtl"] .nn_edit_orderproctn .nn_edit_prosection{
+        text-align: right;
+    }
+    body[dir="rtl"] .nn_order_produ1{
+        padding-right: 15px;
+    }
+    body[dir="rtl"] .nn_categorylist.hidden .nn_btn.cls_right.active{
+        display: none;
+    }
+    body[dir="rtl"] .nn_categorylist.hidden .cls_licount.nn_licount{    
+        justify-content: start;
+    }
+    body[dir="rtl"] .nn_categorylist.hidden .cls_licount.nn_licount1{    
+        justify-content: center;
+    }
+    body[dir="rtl"] .cls_licount.nn_licount1 .nn_selectCate.nn_catealign{
+        position: unset;
+        left: unset;
+        background: transparent;
+        transform: unset;
+    }
+    body[dir="rtl"] .cls_licount.nn_licount .nn_selectCate.nn_catealign,body[dir="rtl"] .nn_categorylist.active.scrollInActive .cls_licount.nn_licount .nn_selectCate.nn_catealign{
+        position: fixed;
+        left: 50%;
+        z-index: 99;
+        background: var(--theme-color);
+        transform: translateX(-50%);
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }    
+}
+body[dir="rtl"] .nn_product_list .slick-prev.slick-disabled,body[dir="rtl"] .nn_product_list .slick-next.slick-disabled{
+    display: none !important;
+}
+/* Product */
+
+body[dir="rtl"] .reset{
+    margin: 20px 10px 20px 0px;
+    left:0px;
+    right:inherit;
+}
+body[dir="rtl"] .car-daea{
+    float: right;
+}
+body[dir="rtl"] .nn_productimg .inner img, .addproduct .addprosection .make_money img{
+    height: 100% !important;
+}
+body[dir="rtl"] .favicon{
+    position: absolute;
+    bottom: 32px;
+    right: unset;
+    left: 60px;
+}
+body[dir="rtl"] .EditBtn,body[dir="rtl"] .chatimg{
+    text-align: left!important;
+    padding-left: 5px;
+    padding-right: 0px;
+}
+@media screen and (min-width: 992px){
+    body[dir="rtl"] .productmain .nn_searchfilter{
+        left: unset;
+        right: 43%;
+    }
+    body[dir="rtl"] .productmain .nn_loadmorefilter{
+        left: unset;
+        right: 50%;
+    }
+}
+body[dir="rtl"] .react-datepicker__tab-loop .react-datepicker-popper{
+    left: unset !important;
+    right: 35px;
+}
+/* Advanced filter */
+body[dir="rtl"] .location-filter{
+    background-position: left center;
+}
+body[dir="rtl"] .locatext.locatingval{
+    text-align: right;
+}
+body[dir="rtl"] .cls_homefilter .ewsakU .rightyesd{
+    left: 10px !important;
+}
+body[dir="rtl"] .notrsnsrtl{
+    transform:translate3d(-295px, -5px, 0px) !important;
+}
+body[dir="rtl"] .notrsnsrtl.makeissus{
+    transform:translate3d(-320px, -5px, 0px) !important
+}
+body[dir="rtl"] .inpydeanrr{
+    float: right;
+    margin:0 auto!important;
+}
+body[dir="rtl"] .input-range__label-container{
+    right: -50%;
+    left: auto;
+}
+body[dir="rtl"] .makestylee{
+    right:0px;
+    left:inherit;
+}
+body[dir="rtl"] .inpydeanrr{
+    direction: rtl;
+}
+body[dir="rtl"] .bgcolor.selected{
+    background-position: left !important;
+ }
+ @media (min-width: 1401px)  {
+    body[dir="rtl"] .notrsnsrtl {
+        -webkit-transform: translate3d(-295px, -5px, 0px) !important;
+        transform: translate3d(-210px, -5px, 0px) !important;
+        min-width: 270px!important;
+    }
+}
+@media screen and (max-width: 1400px) and (min-width: 1200px) {
+    body[dir="rtl"] .notrsnsrtl {
+        -webkit-transform: translate3d(-295px, -5px, 0px) !important;
+        transform: translate3d(-210px, -5px, 0px) !important;
+        min-width: 270px!important;
+    }
+}
+@media screen and (max-width: 991px){
+    body[dir="rtl"] .locmap.popress{
+        text-align: left;
+        padding-left: 20px;
+    }
+}
+@media screen and (max-width: 991px) and (min-width: 768px){
+    body[dir="rtl"] .notrsnsrtl{
+        transform:translate3d(0px, 0px, 0px) !important;
+    }
+    body[dir="rtl"] .notrsnsrtl .bgcolor.selected,.bgcolor.selected{
+        background-size: 4%;
+    }
+}
+@media screen and (max-width: 768px){
+    body[dir="rtl"] .notrsnsrtl{
+        transform: translate3d(0px, 0px, 0px) !important;
+    }
+    body[dir="rtl"] .notrsnsrtl .bgcolor.selected,.bgcolor.selected{
+        background-size: 5%;
+    }  
+} 
+/* slider */
+body[dir="rtl"]  .ribbon {
+    left:-5PX;
+    right: inherit;
+}
+body[dir="rtl"]  .ribbon > div{
+    transform: rotate(-50deg);
+    top: 18px;
+    right: -3px;
+}
+body[dir="rtl"] .car-daea .ribbon{
+    left: -5px !important;
+    top: 0px!important;
+    /* transform: rotate(264deg); */
+    right: inherit;
+}
+body[dir="rtl"] .App-testimonial-count {
+    left:inherit;
+     right: 0px;
+ }
+/* @media (max-width: 768px) and (min-width: 320px){
+    .filterBx.cls_onlyboth {
+        display: inline-block;
+        margin: 20px 0 20px 0px;
+    }
+} */
+
+/* chatpage */
+body[dir="rtl"] .mesg_conver{
+    left: 15px;
+    right: inherit;
+}
+@media screen and (max-width: 767px){
+    body[dir="rtl"] .nn_newpdd.isblock {
+        bottom: 20px;
+        text-align: center;
+        padding: 90px 0px 94px;
+    }
+    body[dir="rtl"] .nn_order_produ1{
+        text-align: center;
+        display: block;
+    }    
+}
+/* footer */
+body[dir="rtl"] .nn_footermobileimg{
+    left: unset;
+    right: 40px;
+}
+body[dir="rtl"] .nn_footersecctn{
+    text-align: right;
+}
+body[dir="rtl"] .nn_pro_ctn{
+    text-align: right;
+    padding-right: 10px;
+    padding-left: 0px;
+}
+body[dir="rtl"] .nn_product_img img{
+    margin-left: 0px;
+}
+body[dir="rtl"] .nn_testactivechat{
+    background-color: #f3f5f6;
+    border-right: 5px solid var(--theme-color);
+    border-left: 0px;
+    margin-left: 5px;
+    margin-right: 0px;
+}
+@media screen and (max-width: 991px) and (min-width: 768px){
+    body[dir="rtl"] .inpydeanrr{
+        float: left;
+    }
+    body[dir="rtl"] .inpydeanrr{
+        margin:0px !important;
+        width: 100%;
+        padding:10px 12px !important;
+    }
+}
+@media screen and (max-width: 767px){
+    body[dir="rtl"] h1.nn_getfreeapp{
+        font-size: 32px;
+        line-height: 45px;
+        padding: 0px;
+        text-align: center !important;
+    }
+    body[dir="rtl"] .inpydeanrr{
+        margin:0px !important;
+        width: 100%;
+        padding:10px 12px !important;
+    }
+    body[dir="rtl"] .jsvhtV.selledetaa{
+        float: right;
+        margin-top:5px;
+    }
+    .jxllvb.sellres{
+        padding:0px!important;
+        width:0px!important;
+    }
+    body[dir="rtl"] .jxllvb.sellres{
+        width: auto!important;
+    }
+}
+/* chatbox */
+body[dir="rtl"] .nn_chatleftctn {
+    text-align: right;
+    margin-right: 3px;
+}
+body[dir="rtl"] .dropdown-menu.chatbox.show{
+    /* transform: translate3d(205px, 31px, 18px)!important; */
+    z-index: 99;
+}
+body[dir="rtl"] .nn_blockuser .nn_soldmain{
+    left: unset;
+    right: 8px;
+}
+body[dir="rtl"] #myId .urgent{
+    /* left: 0px !important; */
+    right:0px !important;
+ }
+ body[dir="rtl"] #myId {
+    padding-bottom: 0px;
+}
+body[dir="rtl"] .nn_chatmsg_new .nn_senderpart .nn_chatmsgctn{
+    float: left;  
+    text-align: left;
+}
+body[dir="rtl"] .nn_chatmsg_new .nn_receivepart .nn_chatmsgctn{
+    float: right;  
+    text-align: right;
+}
+body[dir="rtl"] .nn_chatmsg_new .nn_senderpart{
+    text-align: right;   
+}
+body[dir="rtl"] .nn_chatmsg_new .nn_receivepart{
+    text-align: left;   
+}
+/* editprofile */
+body[dir="rtl"] .product-list section.bgcolor{
+    height: 285px !important;
+}
+body[dir="rtl"] section.iHQQug.rtlissues{
+    text-align: right;
+}
+body[dir="rtl"] .product-list .slick-prev{
+    left: auto!important;
+}
+body[dir="rtl"] .rightPart{
+    width: 30%;
+}
+/* profile details */
+body[dir="rtl"] .product-left .slick-next{
+    left: unset !important;
+    z-index: 1;
+    /* transform: rotate(180deg); */
+    right: -45px;
+}
+body[dir="rtl"] .product-left .slick-prev{
+    right: 5px !important;
+    z-index: 1;
+    /* transform: rotate(180deg); */
+    left: unset;
+}
+body[dir="rtl"] section.bgcolor{
+    height: 330px !important;
+}
+body[dir="rtl"] .urgent {
+    clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 0 100%, 20% 50%, 0 0);
+    right:0px;
+    left: inherit;
+    text-align: right;
+}
+body[dir="rtl"] .nn_seller_msg .nn_chatname{
+    border-radius: 10px 0px 0px 10px;
+    padding: 0 10px 0 0px;
+}
+body[dir="rtl"] .nn_prochatbtn1 a::after{
+    right: 60px;
+    border-left: 12px solid transparent;
+    border-right: 12px solid #fff;
+}
+/* scroll */
+body[dir="rtl"] .anchor-fixed {
+    left: 15px;
+    right: inherit!important;
+}
+/* featured slider */
+
+body[dir="rtl"] .ReactModal__Content.ReactModal__Content--after-open.payrtl{
+    left:0%!important;
+    margin-left: 0%!important;
+    margin-right:auto;
+}
+body[dir="rtl"] .paymenttitle img {
+    padding-left: 10px;
+    padding-right: 0px;
+}
+body[dir="rtl"] .nobgforpayment{
+    text-align: right;
+    width: 100%;
+}
+body[dir="rtl"] .reactbuy.centeralignteactbuy{
+    padding: 0px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+/* login page  */
+body[dir="rtl"] .loginRight  .sc-iwsKbI{
+    transform: rotate(180deg);
+}
+body[dir="rtl"] .loginRight label{
+    right: -15px;
+    left: inherit;
+}
+/* edit profile */
+
+
+body[dir="rtl"] .bgresclg a.sideMenu{
+    text-align: right;
+    padding: 10px 10px 10px 0px;
+}
+
+
+
+/* edit profile popup */
+
+body[dir="rtl"] .kVtcKR{
+    padding-right: 8px;
+    text-align: right;
+    padding-left:inherit;
+}
+body[dir="rtl"] .sdasdasd{
+    margin-right:0px;
+    margin-left:8px;
+} 
+
+/* share popup */
+
+body[dir="rtl"] .input.form-control.noborser{
+    direction: ltr;
+}
+/* seller details Reportuser */
+
+
+@media screen and (max-width:768px){
+    body[dir="rtl"] .rightPart{
+        width:100%;
+    } 
+}
+@media (min-width: 320px) and (max-width: 380px) {
+    body[dir="rtl"] .rtlamtr{
+        margin-top: 10px;
+    }
+}
+@media screen and (min-width:1200px){   
+    body[dir="rtl"] .nn_edit_profileicon{
+        left: 37%;
+        right: unset;
+    }
+}
+
+/* rtl content */
+body[dir="rtl"] .reporlst{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+body[dir="rtl"] .nn_catetitle,body[dir="rtl"] .headerleft .searchfield{
+    margin-right: 10px;
+    margin-left: 0px;
+} 
+body[dir="rtl"] .headerleft .searchfield .searchctn .searchicon{
+    margin: 5px 6px 0px 0px;
+}
+body[dir="rtl"] .headerleft .searchfield .searchctn .searchinput{
+    padding: 0px 10px;
+}
+body[dir="rtl"] .headerleft .searchfield .closeicon,body[dir="rtl"] .LocationPopup .searchfield.nn_search .closeicon{
+    left: 10px;
+    right: unset;
+}
+body[dir="rtl"] .LocationPopup .searchfield.nn_search .searchctn .searchinput{
+    padding: 0px 5px 0 35px;        
+}
+body[dir="rtl"] .productdetails .prodetailsname,
+body[dir="rtl"] .nn_formselect .nn_selectlang,
+body[dir="rtl"] .nn_formselect .nn_selectcurrency,body[dir="rtl"] .nn_homefilter .nn_fliterctn,
+body[dir="rtl"] .nn_countdowndts,body[dir="rtl"] .nn_prodetails,
+body[dir="rtl"] .nn_related_pro,body[dir="rtl"] .product-right .hours-cal,
+body[dir="rtl"] .locmap,body[dir="rtl"] .restto p,body[dir="rtl"] .overflowiss .jjQxhd,body[dir="rtl"] .sortby > div,
+body[dir="rtl"] .nn_dropdown_menu ul li,body[dir="rtl"] .aligntrllocat,body[dir="rtl"] .urgent div{
+    text-align: right;
+}
+.body[dir="rtl"] .nn_product_bg.product-left .slick-prev{
+    left: unset;
+    right: 5px;
+}
+body[dir="rtl"] .restto label{
+    right: 0px;
+    left: inherit;
+}
+body[dir="rtl"] .nn_socialicons .nn_ftsocialctn ul li:last-child{
+    padding-left: 0px;
+}
+body[dir="rtl"] .nn_socialicons .nn_ftsocialctn ul li:first-child{
+    padding: 0px 15px;
+}
+body[dir="rtl"] .nn_formselect .nn_selectlang svg,body[dir="rtl"] .nn_formselect .nn_selectcurrency svg{
+    left: 0px !important;
+    right: unset;
+}
+body[dir="rtl"] .nn_chatboxheader{
+    position: fixed;
+    right: unset;
+    left: 10px;
+}
+body[dir="rtl"] .nn_msg_count span{
+    padding-left: 10px;
+}
+body[dir="rtl"] .nn_chatconver .nn_respchar .nn_chatmain .nn_chatctn .nn_pro_chatctn{
+    padding-right: 10px;
+    text-align: right;
+}
+
+body[dir="rtl"] .inner .freeproduct{
+    left: unset;
+    right: 15px;
+    border-radius: 20px 0px 0px 20px;
+}
+body[dir="rtl"] .inner .featured{
+    left: 15px;
+    right: unset;
+    border-radius: 0px 20px 20px 0px;
+}
+body[dir="rtl"] .fVWeqY{
+    transform: rotate(180deg);
+}
+/* chat msg */
+
+/* body[dir="rtl"] .nn_blockuser {
+    position: absolute;
+    bottom: 0px;
+    left: unset;
+    right: 0px;
+} */
+body[dir="rtl"] .nn_chatmsg_new .nn_chatboxheader0{
+    right: unset;
+    left: 310px;
+}
+body[dir="rtl"] .nn_chatmsg_new .nn_chatboxheader1{
+    right: unset;
+    left: 610px;
+}
+body[dir="rtl"] .nn_chatmsg_new .dropdown-menu.show{
+    right: auto !important;
+    left: -7px !important;
+}
+body[dir="rtl"] .nn_chatmsg_new .nn_chatright ul li .dropdown-menu::after{
+    right: unset;
+    left: 13px;
+}
+body[dir="rtl"] .nn_chatmsg_new .nn_chatright ul li .dropdown-menu::before{
+    right: unset;
+    left: 13px;
+}
+body[dir="rtl"] .nn_chatmsg_new .nn_chatconver{
+    height: 269px;
+}
+body[dir="rtl"] .nn_chatbtctn{
+    float: right;
+}
+body[dir="rtl"] .nn_chatbtn{
+    margin-right: 0px;
+    margin-left: 10px;
+}
+body[dir="rtl"] .nn_chatrtmsgctn .nn_senderpart .nn_leftpart,body[dir="rtl"] .sortby svg,body[dir=rtl] .slick-slide,
+body[dir="rtl"] label.dv-star-rating-star.dv-star-rating-full-star{
+    float: left;
+}
+body[dir="rtl"] .nn_chatrtmsgctn .nn_receivepart .nn_leftpart,body[dir="rtl"] .rtlamtr{
+    float: right;
+}
+body[dir="rtl"] .soc-icon,body[dir="rtl"] .wholereviewwr,body[dir="rtl"] .rvwrtl{
+    float: right;
+    text-align: right;
+}
+body[dir="rtl"] .rtltranschat,body[dir="rtl"] .timelinerew{
+    direction: ltr;
+}
+@media (min-width: 992px){
+    body[dir="rtl"] .subclfprdet{
+        margin-right: -20px;
+    }
+}
+body[dir="rtl"] .nn_dropdowntoggle{
+    right: unset;
+    left: 0px !important;
+}
+body[dir="rtl"] .nn_dropdowntoggle::before{
+    right: unset;
+    left: 13px;
+}
+body[dir="rtl"] .nn_dropdowntoggle::after{
+    right: unset;
+    left: 13px;
+}
+body[dir="rtl"] .rtlchatboct{
+    overflow-x: hidden;
+}
+body[dir="rtl"] .currcyflt{
+    float: left;
+}
+body[dir="rtl"] .rtlrvw label{
+    right: -18px;
+    left: inherit;
+}
+body[dir="rtl"] .rtlrvw.passwordtab label{
+    right: -26px;
+    left: inherit;
+}
+body[dir="rtl"] .rtlborder{        
+    border-right: 1px solid #ccc!important;
+    border-left: none!important;  
+}             
+body[dir="rtl"] .arrrtl{
+    float: right;
+    margin-right: 5px;
+}
+body[dir="rtl"] label.dv-star-rating-star.dv-star-rating-empty-star{
+    float: left !important;
+    transform: rotate(180deg);
+}     
+body[dir="rtl"] .rtlissuesfx{
+    padding-left: 10px;
+}   
+body[dir="rtl"] .chatboxheader {
+    left: 10px;
+    right: auto;
+}
+body[dir="rtl"] .chatleft {
+    float: right;
+    text-align: right;
+}
+body[dir="rtl"] .chatright {
+    text-align: left;
+}
+body[dir="rtl"] .chatboxheader0, body[dir="rtl"] .chatboxheader1 {
+    right : auto;
+    left: 300px;
+}
+/* product details */
+body[dir="rtl"] .nn_productdetails .nn_prodetailsctn .nn_breadcrum .nn_breadcrumctn .nn_ftrt{
+    float: right;
+}
+body[dir="rtl"] .nn_map_details .nn_mapsloc,body[dir="rtl"] .nn_productdetails .nn_prodetailsctn .nn_breadcrum .nn_socialtitle,
+body[dir="rtl"] .resposnsmallscree,body[dir="rtl"] .nn_pro_title h1,body[dir="rtl"] .overflowiss,
+body[dir="rtl"] .cardts,body[dir="rtl"] .yearway,body[dir="rtl"] .pac-container.pac-logo .pac-item,
+body[dir="rtl"] .cls_cateprolist,body[dir="rtl"] .iHQQug,body[dir="rtl"] .loginpo,body[dir="rtl"] .rtlrvw p{
+    text-align: right;
+}
+body[dir="rtl"] .nn_product_list .slick-next:hover,.nn_product_list .slick-next:focus,.nn_product_list .slick-next{
+    transform: rotate(0deg) !important;
+}
+body[dir="rtl"] .nn_product_list .slick-prev:hover,.nn_product_list .slick-prev:focus,.nn_product_list .slick-prev{
+    transform: rotate(0deg) !important;
+}
+body[dir="rtl"] .nn_product_list .slick-prev{
+    left: -10px !important;
+    top: 40% !important;
+}
+body[dir="rtl"] .nn_product_list .slick-next{
+    right: -10px !important;
+    left: unset;
+}
+body[dir="rtl"] .fznnpf{
+    transform: none;
+}
+body[dir="rtl"] .dropdown-menu.show{
+    right: unset;
+    left: 0px !important;
+}
+body[dir="rtl"] .pac-icon {
+    margin-left: 7px;
+}
+body[dir="rtl"] .rtlprofilename{
+    padding-right:10px;
+}
+/* select currency */
+
+body[dir="rtl"] .nn_ftdropdown .nn_selectwrapper .nn_downarrow{
+    position: absolute;
+    right: unset;
+    left: 8px;
+    top: 7px;
+    color: var(--subtheme-color);
+}
+body[dir="rtl"] section.bgcolor{
+    height: 300px !important;
+}
+body[dir="rtl"] .bgcolor{
+    background-position: left !important;
+}
+body[dir="rtl"] .ReactModalPortal .slide-pane__close{
+    margin-right: -11px;
+}
+@media screen and (max-width: 991px){
+    body[dir="rtl"] .wrapprsear{
+        left: unset;
+        right: 15px;
+        position: absolute;      
+    }   
+    body[dir="rtl"] .ReactModalPortal .slide-pane__close{
+        margin-right:5px;
+    } 
+}
+.iUdqX .nn_close_btn{
+    text-align: left;
+    float: left;
+}
+/* advanced filter */
+body[dir="rtl"] .nn_reset,body[dir="rtl"] .hideprodurcha{
+    text-align: left;
+    margin-left: 10px;
+}
+  /* edit profile page */
+body[dir="rtl"] .nn_edit_proname,body[dir="rtl"] .nn_tabs_nav .nav a
+,body[dir="rtl"] .foot-produ,body[dir="rtl"] .nn_order_produ,
+body[dir="rtl"] .nn_form_group label,body[dir="rtl"] .nn_error_text,
+body[dir="rtl"] .nn_order_details table tr td,body[dir="rtl"] .nn_order_details table tr th,body[dir="rtl"] .form-group p,
+body[dir="rtl"] .filterBx,body[dir="rtl"] .contactsdee p,body[dir="rtl"] .rtlprofileset,
+body[dir="rtl"] .popfilltegh .border-btm,body[dir="rtl"] .contheadve,body[dir="rtl"] .texralignfliter,
+body[dir="rtl"] .whbr,body[dir="rtl"] .bgcolor .footer,body[dir="rtl"] .nn_dropdowntoggle ul li{
+    text-align: right !important;
+}
+body[dir="rtl"] .sdsdf{
+    width:140px;
+    padding-left: 50px;
+}
+body[dir="rtl"] .trlaonlyadd{
+    width: 90%;
+    float: right;
+}
+body[dir="rtl"] .trlaonlyadd img,body[dir="rtl"] .customresponsive,body[dir="rtl"] button.btn2.mt1{
+  float: right;  
+}
+body[dir="rtl"] .productvwtrl{
+    float: right;
+    padding-right: 10px;
+    text-align: right;
+}
+body[dir="rtl"] button.btn1.mt1{
+    float: left !important;
+}
+body[dir="rtl"] .nn_tab_ctn{
+    margin-left: 0px;
+    margin-right: 10px;
+}
+body[dir="rtl"] .reporreve.rvwrtl.show .dropdown-menu.show{
+    right: unset !important;
+    left: -20px !important;
+}
+body[dir="rtl"] .nn_order_total{
+    text-align: left;
+}
+body[dir="rtl"]  label.nn_pay_label,body[dir="rtl"] button.btn.btn-danger{
+    display: block;    
+    margin: 0 auto;
+}
+body[dir="rtl"] .nn_edit_backarrow,body[dir="rtl"] .nn_edit_backarrow1{
+    left: unset;
+    right: 15px;
+}
+body[dir="rtl"] .nn_edit_backarrow1{
+    top: 20px;
+}
+body[dir="rtl"] .nn_seller_dropdown{
+    right: unset;
+    left: 15px;
+}
+body[dir="rtl"] .nn_seller_dropdown .dropdown.show,body[dir="rtl"] .nn_cancel_btn,
+body[dir="rtl"] .nn_cancel_btn button.close,body[dir="rtl"] .rightyesd{
+    text-align: left;
+}
+body[dir="rtl"] .nn_filtervalue{
+    text-align: right;
+}
+body[dir="rtl"] .nn_filtervalue span{
+    margin: 15px 15px 0px 15px;
+}
+body[dir="rtl"] .nn_edit_orderproctn .bgcolor{
+    text-align: center;
+}
+body[dir="rtl"] .cls_cate_mbl:before{
+    left: 20px;
+    right: unset;
+}
+body[dir="rtl"] .nn_order_produ, body[dir="rtl"] .iHQQug .location-close.ltn.revw, body[dir="rtl"] .iHQQug .location-close.ltn{
+    float: right;
+}
+body[dir="rtl"] .nn_modal_header,body[dir="rtl"] .nn_cancel_order,body[dir="rtl"] .close-Id,
+body[dir="rtl"] .sharelistingspavveve, body[dir="rtl"] .featureadd .footer, body[dir="rtl"] .textrightrtl p,
+body[dir="rtl"] .rtlarr, body[dir="rtl"] .rtlarrowchat{
+    text-align: right;
+}
+body[dir="rtl"] .nn_cancel_btn .close{
+    float: left;
+    margin-right: 10px;
+}
+body[dir="rtl"] .nn_orderstsctn p span{
+    margin-left: 0px;
+    margin-right: 5px;
+}
+body[dir="rtl"] .nn_order_details table tr td.nn_status,body[dir="rtl"] .nn_order_details table tr td,body[dir="rtl"] .nn_order_details table tr th{
+    padding-right: 20px;
+    padding-left: 0px;
+    border-right: 0px solid #ddd;
+    border-left: 1px solid #ddd;
+}
+body[dir="rtl"] .nn_order_details table tr td:last-child,body[dir="rtl"] .nn_order_details table tr th:last-child{
+    border-right: 0px solid #fff;
+    border-left: 0px solid #fff;
+}
+body[dir="rtl"] .ReactModal__Content.ReactModal__Content--after-open.slide-pane.slide-pane_from_right.some-custom-class{
+    left: 0 !important;
+    right: unset !important;
+    transform:none!important;
+    transition: none!important;
+ }   
+ body[dir="rtl"] .slide-pane .slide-pane__title{
+    text-align: right;
+    margin-right: 32px;
+ } 
+ body[dir="rtl"] .newpdd{
+    margin-bottom: 35px;
+}
+body[dir="rtl"] .reporreve .dropdown-menu.show{
+    right: inherit;
+    left: -10px!important;
+    transform: translate3d(10px, 50px, 0px)!important;
+}
+body[dir="rtl"] .rtlissuesfx{
+    padding-left: 10px;;
+}
+body[dir="rtl"] .classes-state-root1{
+    text-align: left;
+    padding-left: 35px;
+}
+body[dir="rtl"] .classes-state-root div{
+    padding-right: 90px!important;
+    width: 140px;
+}
+body[dir="rtl"] .nn_edit_proctn .nn_edit_prosection a .inner .freeproduct,
+body[dir="rtl"] .nn_edit_proctn .bgcolor a .inner .freeproduct{
+    left: unset;
+    right: 10px;
+    border-radius: 20px 0px 0px 20px;
+}
+body[dir="rtl"] .nn_edit_proctn .nn_edit_prosection a .inner .featured,
+body[dir="rtl"] .nn_edit_proctn .bgcolor a .inner .featured{
+    right: unset;
+    left: 10px;
+    border-radius: 0px 20px 20px 0px;
+}
+@media screen and (max-width: 767px) {
+    body[dir="rtl"] .classes-state-root div{
+        width:auto!important;
+    }
+}
+/* popup */
+
+
+body[dir="rtl"] .rightmakeit, body[dir="rtl"] .rtlchat, body[dir="rtl"] .comonw,body[dir="rtl"] .rtlarabic,
+body[dir="rtl"] .chat-image{
+    float: right !important;
+}
+body[dir="rtl"] .nn_share_ctn{
+    text-align: left;
+}
+body[dir="rtl"] .leftmakeit.respnsive{
+    padding-right: 15px;
+}
+
+/* featured payment modal */
+
+
+body[dir="rtl"] .cls_paymodal .modal-header .close{
+    padding: 1rem 1rem;
+    margin: -1rem -1rem -1rem;
+}
+body[dir="rtl"] .cls_stripe{
+    text-align: right;
+    margin: 0;
+}
+
+
+/* orderview add address popup */
+body[dir="rtl"] .nn_loc_btn{
+    float: left;
+    text-align: left;
+}
+body[dir="rtl"] .leftimgrev.seller{
+    float: right;
+    text-align: right;
+}
+
+/* sell your stuff */
+
+body[dir=rtl] .nn_cate_select::before{
+    left: 20px;
+    right: unset;
+}
+body[dir=rtl] .cls_selectafter div >svg,
+body[dir=rtl] .nn_seller_dropdn div >svg,
+body[dir=rtl] .nn_seller_dropdn1 div >svg{
+    left: 0;
+    right: unset;
+}
+body[dir=rtl] .img_cvr > button{
+    left: 4px;
+    right: unset;
+    margin: 0px 0px 2px 2px;
+}
+body[dir=rtl] .nn_dropdownsell label[class*=" MuiInputLabel-formControl-"]{
+    left: unset;
+    right: 0;
+}
+body[dir=rtl] span.nn_checked{
+    transform: translateX(-14px) !important;
+}
+body[dir=rtl] .nn_categorylistname.hidden .nn_categorylist.hidden .nn_btn.cls_left.active {
+    display: flex;
+}
+body[dir=rtl] .nn_categorylistname.hidden .nn_categorylist.hidden .nn_btn.cls_right.hidden,
+body[dir=rtl] .nn_categorylistname.active .nn_categorylist.hidden .nn_btn.cls_right.active {
+    display: none;
+}
+body[dir=rtl] .arrow{    
+    right: unset;
+    left: 1em;
+    top: 1.5em;
+}

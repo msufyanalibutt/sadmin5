@@ -1,0 +1,16 @@
+
+/* rtl content */
+body[dir="rtl"] .cls_orderview .cls_orderall .cls_common h2,body[dir="rtl"] .cls_product_heading,
+body[dir="rtl"] .cls_adddisplay,body[dir="rtl"] .cls_addlist h3,body[dir="rtl"] .cls_ordertxt,body[dir="rtl"] .cls_pophead,
+body[dir="rtl"] .cls_pophead,body[dir="rtl"] .MuiFormHelperText-root-316.MuiFormHelperText-error-317{
+    text-align: right;
+}
+body[dir="rtl"] .cls_editdel,body[dir="rtl"] .cls_orderbtn,body[dir="rtl"] .cls_orderprice p{
+    text-align: left;
+}
+body[dir="rtl"] .cls_popclose{
+    float: left;
+}
+body[dir="rtl"] .cls_addaddress form .form-group label{
+    float: right;
+}
